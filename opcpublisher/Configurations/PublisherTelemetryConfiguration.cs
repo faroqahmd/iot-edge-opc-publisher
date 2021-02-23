@@ -139,9 +139,9 @@ namespace OpcPublisher.Configurations
 
             // set defaults for 'Publish' to be compatible with Connected factory
             _defaultEndpointTelemetryConfiguration.EndpointUrl.Publish = false;
-            _defaultEndpointTelemetryConfiguration.NodeId.Publish = true;
+            _defaultEndpointTelemetryConfiguration.NodeId.Publish = false;
             _defaultEndpointTelemetryConfiguration.ExpandedNodeId.Publish = false;
-            _defaultEndpointTelemetryConfiguration.MonitoredItem.ApplicationUri.Publish = true;
+            _defaultEndpointTelemetryConfiguration.MonitoredItem.ApplicationUri.Publish = false;
             _defaultEndpointTelemetryConfiguration.MonitoredItem.DisplayName.Publish = true;
             _defaultEndpointTelemetryConfiguration.Value.Value.Publish = true;
             _defaultEndpointTelemetryConfiguration.Value.SourceTimestamp.Publish = true;
