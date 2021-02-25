@@ -14,7 +14,7 @@ namespace OpcPublisher
     /// </summary>
     public class PublishNodesMethodRequestModel
     {
-        public PublishNodesMethodRequestModel(string endpointUrl, bool useSecurity = true, string userName = null, string password = null)
+        public PublishNodesMethodRequestModel(string endpointUrl, bool useSecurity = true, string userName = "....", string password = "....")
         {
             OpcNodes = new List<OpcNodeOnEndpointModel>();
             EndpointUrl = endpointUrl;
